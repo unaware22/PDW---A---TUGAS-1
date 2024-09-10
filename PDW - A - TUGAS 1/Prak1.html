@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDW - A HTML5</title>
+</head>
+<body>
+    <!-- Elemen Semantik -->
+    <header>
+        <h1>Selamat Datang di Website HTML5</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#image">Image and gif</a></li>
+                <li><a href="#table">Daftar Harga Buah</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <article>
+                <h2>Pengantar HTML5</h2>
+                <p>HTML5 adalah versi terbaru dari HTML yang menyertakan banyak elemen semantik baru untuk mempermudah struktur halaman.</p>
+            </article>
+        </section>
+
+        <!-- Elemen Non-Semantik -->
+         <section id="about">
+        <div>
+            <h3>Elemen Non-Semantik</h3>
+            <p>Elemen seperti <code>&lt;div&gt;</code> dan <code>&lt;span&gt;</code> tidak memiliki makna khusus. Mereka digunakan untuk membungkus konten tanpa memberikan konteks struktural.</p>
+            <h3>Perbedaan Elemen Class dan Id</h3>
+            <p>class: Digunakan untuk mengelompokkan beberapa elemen yang bisa berbagi gaya atau fungsi yang sama. Satu elemen bisa memiliki lebih dari satu class. Dapat digunakan pada banyak elemen.
+                <br>contoh: (.container)
+            </p>
+            <p>id: Digunakan untuk mengidentifikasi satu elemen yang unik. Hanya boleh digunakan satu kali dalam satu halaman, dan satu elemen hanya boleh memiliki satu id.
+                <br>contoh: (#container)
+            </p>
+        </div>
+         </section>
+        <!-- Elemen Gambar -->
+        <section id="image">
+            <h4>Contoh Gif 100x100</h4>
+            <img src="img/awo.gif" width="100px" height="100px" alt="Contoh gambar">
+            <h4>Contoh Gambar 200x200</h4>
+            <img src="img/windah.jpg" width="200px" height="200px" alt="Contoh gambar">
+            
+        </section>
+
+        <!-- Elemen Form -->
+        <section id="contact">
+            <h3>Formulir Kontak</h3>
+            <form action="#" method="post">
+                <label for="name">Nama Lengkap</label>
+                <br>
+                <input type="text" id="name1" name="name1" placeholder="Nama Depan" >
+                <input type="text" id="name2" name="name2" placeholder="Nama Belakang" >
+                <br>
+                <br>
+                
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="email@example.com">
+                <br><br>
+
+                <label for="message">Pesan</label>
+                <br>
+                <textarea id="message" name="message" rows="4" cols="35" placeholder="Tulis pesan Anda di sini"></textarea>
+                <br><br>
+
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+
+        <!-- Elemen List -->
+        <section id="table">
+            <h3>Daftar Buah-buahan Favorit</h3>
+            <ol>
+                <li>Apel</li>
+                <li>Pisang</li>
+                <li>Jeruk</li>
+                <li>Anggur</li>
+                <li>Naga</li>
+                <li>Kelengkeng</li>
+            </ol>
+        </section>
+
+        <!-- Elemen Tabel -->
+        <section>
+            <h3>Daftar Harga Buah</h3>
+            <table border="1" >
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Buah</th>
+                        <th>Harga per Kg</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Apel</td>
+                        <td>Rp 25.000</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Pisang</td>
+                        <td>Rp 15.000</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Jeruk</td>
+                        <td>Rp 20.000</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Anggur</td>
+                        <td>Rp 35.000</td>
+                    </tr>
+                        <td>5.</td>
+                        <td>Naga</td>
+                        <td>Rp 45.000</td>
+                    <tr>
+                        <td>6</td>
+                        <td>Kelengkeng</td>
+                        <td>Rp 25.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <br>
+        <p>© 2024 Praktikum HTML5. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
+span
